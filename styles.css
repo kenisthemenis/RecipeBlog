@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-parent {
+    width: 67%;
+    margin-top: 4vh;
+}
+
+.header-parent h1 {
+    font-family: Playfair Display;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.container-sixdots {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-left: 1vh;
+
+}
+
+
+.div-p-sixdots {
+    width: 75%;
+    margin-left: 1vh;
+}
+
+
+.p-sixdots {
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cheesecake {
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.recipe {
+    width: 67%;
+    margin-top: 4vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 40vh;
+    min-width: 30vh;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    row-gap: 3vh;
+    padding: 7vh 3vh 5vh 3vh;
+}
+
+
+.card-symbol-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    column-gap: 5px;
+
+}
+
+.ingredients {
+    font-family: Playfair Display;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 1)
+}
+
+.crackercrust {
+    font-family: Playfair Display;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 3vh;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 3vh;
+
+}
+
+
+label {
+    display: block;
+    padding-left: 25px;
+    text-indent: -25px;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    bottom: 5px;
+    margin-right: 10px;
+}
+
+.cheesecake-txt {
+    font-family: Playfair Display;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    margin: 5vh 0 5vh 0
+}
+
+.txt-1 {
+    font-family: Montserrat;
+    font-size: 0.825rem;
+    font-weight: 700;
+    line-height: 0.75rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(189, 189, 189, 1);
+
+}
+
+.txt-2 {
+    font-family: Montserrat;
+    font-size: 0.825rem;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 1)
+}
+
+.servings {
+    color: rgba(242, 153, 74, 1);
+    font-weight: 900;
+}
+
+.symbols-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+.recipe-instructions h2 {
+    font-family: Playfair Display;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+
+}
+
+
+
+
+.instr-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    column-gap: 10px;
+    margin-bottom: 3vh;
+    width: 100%;
+}
+
+.instr-container p {
+
+
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+button {
+    border: 1px solid rgba(242, 153, 74, 1);
+    border-radius: 5px;
+    min-height: 26px;
+    min-width: 36px;
+    background-color: rgba(242, 153, 74, 1);
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    padding-bottom: 10px;
+
+
+
+
+}
+
+footer {
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.0625rem;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:750px) {
+    body {
+        padding: 0 2vh 0 2vh;
+    }
+
+    .header-parent h1 {
+        font-family: Playfair Display;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+    .header-parent,
+    .container-sixdots {
+        width: 100%;
+
+    }
+
+    .txt-2 {
+        font-family: Montserrat;
+        font-size: 0.625rem;
+        font-weight: 500;
+        line-height: 0.75rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .txt-1 {
+        font-family: Montserrat;
+        font-size: 0.5rem;
+        font-weight: 700;
+        line-height: 0.625rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .recipe {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .ingredients {
+        margin-top: 3vh;
+    }
+
+    .card-1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-shadow: none;
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .card,
+    .card-1 {
+        width: 100%;
+    }
+
+    .servings {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .symbols-2 {
+        flex-direction: row;
+        width: 100%;
+        column-gap: 5px;
+    }
+
+    .card-symbol-div {
+        justify-content: flex-start;
+    }
+
+
+}
